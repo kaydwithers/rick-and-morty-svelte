@@ -1,7 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import { API_URL } from "./js/const";
-  import "./css/main.css";
 
   import Characters from "./components/Characters/index.svelte";
   import Footer from "./components/Footer.svelte";
