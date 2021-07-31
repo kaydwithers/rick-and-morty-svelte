@@ -25,19 +25,13 @@
     placeholder="Search"
     id="search"
     bind:value
-    on:input={() => {
-      dispatch("inputValue", value);
-    }}
+    on:input={() => dispatch("inputValue", value)}
   />
 
   {#if hasTheme}
-    <button on:click={handleTheme}>🌞</button>
+    <button on:click={() => handleTheme()}>🌞</button>
   {:else}
-    <button
-      on:click={() => {
-        handleTheme("dark");
-      }}>🌚</button
-    >
+    <button on:click={() => handleTheme("dark")}>🌚</button>
   {/if}
 </header>
 

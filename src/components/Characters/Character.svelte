@@ -36,14 +36,17 @@
     transition-property: transform;
     width: 100%;
   }
+
   button:hover {
     transform: scaleX(1.05) scaleY(1.05);
   }
+
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     width: 100%;
   }
+
   p {
     align-items: center;
     display: flex;
