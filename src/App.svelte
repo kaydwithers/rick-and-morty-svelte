@@ -104,8 +104,6 @@
 <Footer on:nextPage={handleNextPage} on:previousPage={handlePreviousPage} />
 
 <style>
-  @import "./css/main.css";
-
   .error {
     margin: 4rem 2rem;
     text-align: center;
