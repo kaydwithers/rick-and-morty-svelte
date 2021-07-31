@@ -19,7 +19,7 @@
 
   button {
     font-size: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 </style>
